@@ -11,6 +11,8 @@ import java.util.List;
 /*
 Un POJO Plain Old Java Object
  */
+
+//Annotations JaxWS
 @WebService(serviceName = "BanqueWS")
 public class BanqueService {
     @WebMethod(operationName = "ConversionEuroToDH")
